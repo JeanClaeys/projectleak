@@ -1,0 +1,168 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    overflow: hidden;
+    font-family: arial;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
+}
+#blocker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20,20,20,0.9);
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 2s ease;
+}
+#instructions {
+    background: url(../img/backgrounddeux.png) no-repeat center;
+    background-size: 125%;
+    background-position: 56% 45%;
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    height: 95vh;
+    padding-top: 40px;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 2s ease;
+    color: #ffffff;
+}
+.left {
+  width: 60%;
+  float: left;
+  margin-top: 20px;
+}
+.right {
+  width: 30%;
+  float: right;
+  margin-top: 20px;
+}
+.texteone {
+  width: 100%;
+  margin-bottom: 10%;
+}
+.niveau {
+  width: 100%;
+  height: 200px;
+}
+.etape {
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 29.2%;
+  float: left;
+  text-align: center;
+}
+.acces {
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 29.3%;
+  float: left;
+  padding: 5% 2% 5% 2%;
+}
+.pointer {
+  cursor: pointer;
+}
+.resultat {
+  width: 29.2%;
+  float: left;
+  padding: 5% 2% 2% 2%;
+}
+.etapetwo {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  text-align: center;
+}
+.opacity {
+  opacity: 0.5;
+}
+.go {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  height: 27px;
+  padding: 2%;
+  border: 2px solid #fff;
+}
+.go p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #BDBDBD;
+}
+h3 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+}
+.conseil li {
+  margin: 0 0 14px 0;
+  font-size: 14px;
+}
+.stats {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.chiffres {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+.touches {
+  width: 30%;
+  float: left;
+  margin-top: 10%;
+}
+.explications {
+  width: 50%;
+  float: left;
+  margin-top: 10%;
+  opacity: 0.6;
+}
+.lione {
+  color: rgba(255,255,255,1);
+}
+.litwo {
+  color: rgba(255,255,255,0.9);
+}
+.lithree {
+  color: rgba(255,255,255,0.8);
+}
+.lifour {
+  color: rgba(255,255,255,0.7);
+}
+.lifive {
+  color: rgba(255,255,255,0.6);
+}
+.lisix {
+  color: rgba(255,255,255,0.5);
+}
+.liseven {
+  color: rgba(255,255,255,0.4);
+}
+.esc {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}

@@ -1,0 +1,586 @@
+
+<!DOCTYPE html>
+   <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Test_TetE">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> LEAK | GAME </title>
+      <!-- META -->
+
+      <!-- LINK -->
+      <link rel="icon" type="image/png" href="img/favicon.png" />
+      <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" /><![endif]-->
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,300italic' rel='stylesheet' type='text/css'>
+
+      <script type="text/javascript" src="build/three.min.js"></script>
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script src="js/jquery.inview.min.js"></script> 
+    </head>
+  <body>
+
+    <div id="WebGL-output">
+    </div>
+
+
+    <div class="container">
+
+      <nav>
+        <ul>
+          <li><a class="link" href="#one"><h4>001</h4><h5>A propos</h5></a></li>
+          <li><a class="link" href="#two"><h4>002</h4><h5>Technologies</h5></a></li>
+          <li><a class="link" href="#three"><h4>003</h4><h5>Jouer</h5></a></li>
+          <li><a class="link" href="#four"><h4>004</h4><h5>Credits</h5></a></li>
+        </ul>
+      </nav>
+
+
+      <section id="one">
+        <div class="content">
+          <div class="title">
+            <h2>001 </h2>
+            <h3>À propos</h3>
+          </div>
+          <div class="word">
+            <p>LEAK c’est avant tout <strong class="gras">un projet de fin d’année</strong> réalisé dans le cadre de mes études en <strong class="gras">web design à l’esiaj</strong>. Nous devions créer une expérience multimédia que ce soit un site, une histoire ou une expérimentation. J’ai donc décidé de créee une <strong class="gras">expérimentation</strong>.</p>
+
+            <p>Lorsque vous dormez, vous passez par <strong class="gras">trois étapes de sommeil, L'éveil calme, le sommeil profond et le sommeil paradoxal</strong>. Ces trois étapes formes le cycle du sommeil et c'est pendant ces périodes que vous rêvez.</p>
+
+            <p>Concrètement, LEAK est un <strong class="gras">jeu de plateforme en première personne basé sur le cauchemar</strong>. Vous incarnez votre propre personnage dans ce jeu. Le principe est de parcourir, le plus rapidement possible, une suite de plateformes organisées en niveaux, qui déterminent les trois étapes de sommeil.</p>
+
+            <p><strong class="gras">Votre but est de passer ces étapes pour pouvoir sortir de votre cauchemar</strong>.</p>
+            <p></p>
+          </div>
+          <div id="webglone">
+            <img class="image" src="img/leak.png" alt="image du jeu leak">
+          </div>
+        </div>
+      </section>
+
+      <section id="two">
+        <div class="content">
+          <div class="title">
+            <h2>002 </h2>
+            <h3>technologies</h3>
+          </div>
+          <div class="wordtwo">
+            <p>LEAK est un jeu en 3D <strong class="gras">Jouable seulement sur ordinateur</strong>. Créer principalement en <strong class="gras">javascript grâce au webgl et à la librairie three.js</strong> permettant l’intégration de 3D en temps réel sur navigateur.</p>
+
+            <p>Cette technologie est implémentée seulement dans les navigateurs les plus récents, c'est pourquoi <strong class="gras">il est conseillé d'utiliser les dernières versions de google chrome ou de mozilla pour pouvoir y jouer</strong>.</p>
+
+            <p>L'intégralité du jeu est créée en javascript et l’interface en html / css.</p>
+            <p></p>
+          </div>
+          <div class="overflow">
+            <div id="webgltwo"></div>
+          </div>
+          </div>
+      </section>
+
+      <section id="three">
+        <div class="content">
+          <div class="title">
+            <h2>003 </h2>
+            <h3>Jouer</h3>
+          </div>
+          <div class="word">
+            <p>Pour réussir à vous reveiller de cette horrible cauchemar vous allez devoir usé de votre agilité pour parcourir les trois étapes de LEAK.</p>
+            <p>Comment jouer à LEAK ?</p>
+            <ul>
+              <li>Pour vous déplacer, utilisez les touches fléchés ou encore <strong class="gras">la combinaison de touche Z, Q, S, D</strong>.</li>
+              <li>Utilisez votre <strong class="gras">pavé tactile ou encore votre souris</strong> pour regarder autour de vous.</li>
+              <li>Pour sauter, utilisez <strong class="gras">la touche espace de votre clavier</strong>.</li>
+            </ul>
+            <p></p>
+          </div>
+          <a class="playplay" href="leak/index.html">
+            <h6 class="play">PLAY</h6>
+            <div class="separation"></div>
+            <h6 class="now">NOW</h6>
+          </a>
+        </div>
+      </section>
+
+      <section id="four">
+        <div class="content">
+          <div class="title">
+            <h2>004 </h2>
+            <h3>Credits</h3>
+          </div>
+          <div class="word credit">
+            <a href="http://threejs.org/">Three js (mr Doob)</a>
+            <a href="https://jquery.com/">Jquery</a>
+            <a href="http://www.sonniss.com/sound-effects/free-download-game-audio/">Bibliothéque d'effets sonores</a>
+            <a href="http://www.w3schools.com/html/html5_webstorage.asp">Local storage</a>
+            <a href="http://teddyk.be/">Mr kishi</a>
+
+            <p class="float">Remerciement à nos professeurs de dwm pour leurs retours.</p>
+
+            <p></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="five">
+        <div class="content">
+          <div class="title">
+            <h3 class="padding">A propos de moi</h3>
+          </div>
+          <div class="word">
+            <p>Je suis actuellement en troisième à la haute école albert jacquard en web design et multimédia. Après avoir beaucoup appris pendant ces trois années dans la section je pense par la suite me diriger vers de l'illustration 2D et essayer d'associer ses compétences à celles de web.</p>
+            <p> Je vous invite donc à me suivre sur <strong class="gras">behance</strong>, <strong class="gras">twitter</strong> ou encore <strong class="gras">google plus</strong> pour vous tenir au courant des actualitées.</p>
+            <a class="twitter" href="https://twitter.com/cly_jean" target="_blank"></a>
+            <a class="behance" href="https://www.behance.net/Jean-claeys" target="_blank"></a>
+            <a class="google" href="https://plus.google.com/116296874535599663187/posts" target="_blank"></a>
+            <a class="pinterest" href="https://www.pinterest.com/jeanclaeys96/" target="_blank"></a>
+            <img class="image" src="img/maggletrois.jpg" alt="photo de moi">
+            <p>Un grand merci à vous pour avoir passé un peu de temps sur mon projet de tfe.</p>
+            <p></p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="text/javascript">
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+        function inittwo() {
+          var cameratwo, scenetwo, renderertwo, barrelone, barreltwo;
+          var scenetwo = new THREE.Scene();
+          var cameratwo = new THREE.PerspectiveCamera( 50, 800/400, 1, 1000 );
+          var renderertwo = new THREE.WebGLRenderer( {antialias:true} );
+          var hemispheretwo = new THREE.HemisphereLight( 0xffffff, 0x777788, 1.25 );
+          hemispheretwo.position.set( 0.5, 1 , 0.75 );
+          scenetwo.add( hemispheretwo );
+          renderertwo.setClearColor(new THREE.Color(0x141414, 1.0));
+          renderertwo.setSize(800, 400);
+          cameratwo.position.x = -80;
+          cameratwo.position.y = 20;
+          cameratwo.position.z = 40;
+          cameratwo.lookAt(scenetwo.position);
+          var cubeGeometrywebgl = new THREE.BoxGeometry(15,15,15);
+          var cubeMaterialwebgl = new THREE.MeshPhongMaterial( { ambient: 0xADADAD, color: 0xADADAD, specular: 0x000000, shininess: 50 } );
+          var cubewebgl = new THREE.Mesh(cubeGeometrywebgl, cubeMaterialwebgl);
+          cubewebgl.position.x=-30;
+          cubewebgl.position.y=10;
+          cubewebgl.position.z=-12;
+          scenetwo.add(cubewebgl);
+          var cubeGeometrywebgltwo = new THREE.BoxGeometry(10,10,10);
+          var cubeMaterialwebgltwo = new THREE.MeshPhongMaterial( { ambient: 0x333333, color: 0xADADAD, specular: 0x000000, shininess: 50 } );
+          var cubewebgltwo = new THREE.Mesh(cubeGeometrywebgltwo, cubeMaterialwebgltwo);
+          cubewebgltwo.position.x=-15;
+          cubewebgltwo.position.y= 35;
+          cubewebgltwo.position.z= -80;
+          scenetwo.add(cubewebgltwo);
+          var wireframewebgl = new THREE.WireframeHelper( cubewebgl, 0xffffff );
+          scenetwo.add(wireframewebgl);
+          var wireframewebgltwo = new THREE.WireframeHelper( cubewebgltwo, 0xffffff );
+          scenetwo.add(wireframewebgltwo);
+          document.getElementById("webgltwo").appendChild(renderertwo.domElement);
+          renderScenetwo();
+          function renderScenetwo() {
+              cubewebgl.rotation.x += 0.01;
+              cubewebgl.rotation.y += 0.01;
+              cubewebgltwo.rotation.x -= 0.01;
+              cubewebgltwo.rotation.y += 0.01;
+              requestAnimationFrame(renderScenetwo);
+              renderertwo.render(scenetwo, cameratwo);
+          }
+        };
+        inittwo();
+        function init() {
+          var camera, scene, renderer, light1, loader, mesh;
+          var scene = new THREE.Scene();
+          scene.fog = new THREE.Fog( 0x000000, 5, 250 );
+          var camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+          var renderer = new THREE.WebGLRenderer( {antialias:true} );
+          var hemisphereone = new THREE.HemisphereLight( 0xffffff, 0x777788, 1.25 );
+          hemisphereone.position.set( 0.5, 1 , 0.75 );
+          scene.add( hemisphereone );
+          renderer.setClearColor(new THREE.Color(0x000000, 1.0));
+          renderer.setSize(window.innerWidth, window.innerHeight);
+          var cubeMaterialchange = new THREE.MeshPhongMaterial( { ambient: 0x333333, color: 0x2C2C2C, wireframe: true } );
+          var barreverticaleone = new THREE.BoxGeometry(0.5,10.8,2);
+          var barreverticaletwo = new THREE.BoxGeometry(0.5,11.7,2);
+          var barreverticalethree = new THREE.BoxGeometry(0.5,11.7,2);
+          var barrehorizontaleone = new THREE.BoxGeometry(6.1,0.5,2);
+          var barrehorizontaletwo = new THREE.BoxGeometry(9.2,0.5,2);
+          var barrehorizontalethree = new THREE.BoxGeometry(8.1,0.5,2);
+          var barrehorizontalesix = new THREE.BoxGeometry(220,0.2,2);
+          var barrehorizontalefour = new THREE.BoxGeometry(9.5,0.5,2);
+          var barrehorizontalefive = new THREE.BoxGeometry(8,0.5,2);
+          var materialchange = new THREE.MeshPhongMaterial( { color: 0x000000 } )
+          var barrelone = new THREE.PointLight( 0xA4A4A4, 1, 1 );
+          barrelone.add( new THREE.Mesh( barreverticaleone, new THREE.MeshPhongMaterial( { color: 0xA4A4A4 } ) ) );
+          scene.add( barrelone );
+          barrelone.position.x= 16 + (-30.5);
+          barrelone.position.y=10.4;
+          barrelone.position.z= -55;
+          var barreltwo = new THREE.PointLight( 0xA4A4A4, 1, 1 );
+          barreltwo.add( new THREE.Mesh( barrehorizontaleone, new THREE.MeshPhongMaterial( { color: 0xA4A4A4 } ) ) );
+          scene.add( barreltwo );
+          barreltwo.position.x= 16 + (-27.7);
+          barreltwo.position.y=5.2;
+          barreltwo.position.z= -55;
+          var materialbarreeone =  new THREE.MeshPhongMaterial( { color: 0xffffff } );
+          var barreeonemesh = new THREE.Mesh(barreverticaleone, materialbarreeone);
+          var barreeone = new THREE.PointLight( 0xffffff, 2, 200 );
+          barreeone.add( new THREE.Mesh( barreeonemesh ) );
+          scene.add( barreeonemesh );
+          scene.add( barreeone );
+          barreeonemesh.position.x= 16 + (-22.8);
+          barreeonemesh.position.y=10.4;
+          barreeonemesh.position.z= -55;
+          var materialbarreetwo =  new THREE.MeshPhongMaterial( { color: 0xffffff } );
+          var barreetwomesh = new THREE.Mesh(barrehorizontaleone, materialbarreetwo);
+          var barreetwo = new THREE.PointLight( 0xffffff, 2, 200 );
+          barreetwo.add( new THREE.Mesh( barreetwomesh ) );
+          scene.add( barreetwomesh );
+          scene.add( barreetwo );
+          barreetwomesh.position.x= 16 + (-20);
+          barreetwomesh.position.y=5.2;
+          barreetwomesh.position.z= -55;
+          var materialbarreethree =  new THREE.MeshPhongMaterial( { color: 0xffffff } );
+          var barreethreemesh = new THREE.Mesh(barrehorizontaleone, materialbarreethree);
+          var barreethree = new THREE.PointLight( 0xffffff, 2, 200 );
+          barreethree.add( new THREE.Mesh( barreethreemesh ) );
+          scene.add( barreethreemesh );
+          scene.add( barreethree );
+          barreethreemesh.position.x= 16 + (-20);
+          barreethreemesh.position.y=10.6;
+          barreethreemesh.position.z= -55;
+          var materialbarreefour =  new THREE.MeshPhongMaterial( { color: 0xffffff } );
+          var barreefourmesh = new THREE.Mesh(barrehorizontaleone, materialbarreefour);
+          var barreefour = new THREE.PointLight( 0xffffff, 2, 200 );
+          barreefour.add( new THREE.Mesh( barreefourmesh ) );
+          scene.add( barreefourmesh );
+          scene.add( barreefour );
+          barreefourmesh.position.x= 16 + (-20);
+          barreefourmesh.position.y=15.6;
+          barreefourmesh.position.z= -55;
+          var barreaone = new THREE.PointLight( 0xA4A4A4, 1, 1 );
+          barreaone.add( new THREE.Mesh( barreverticalethree, new THREE.MeshPhongMaterial( { color: 0xA4A4A4 } ) ) );
+          scene.add( barreaone );
+          barreaone.position.x= 16 + (-12.5);
+          barreaone.position.y=10.2;
+          barreaone.position.z= -55;
+          barreaone.rotation.z=-0.43;
+          var barreatwo = new THREE.PointLight( 0xA4A4A4, 1, 1 );
+          barreatwo.add( new THREE.Mesh( barreverticaletwo, new THREE.MeshPhongMaterial( { color: 0xA4A4A4 } ) ) );
+          scene.add( barreatwo );
+          barreatwo.position.x= 16 + (-7.7);
+          barreatwo.position.y=10.2;
+          barreatwo.position.z= -55;
+          barreatwo.rotation.z=0.43;
+          var barreathree = new THREE.PointLight( 0xA4A4A4, 1, 1 );
+          barreathree.add( new THREE.Mesh( barrehorizontaleone, new THREE.MeshPhongMaterial( { color: 0xA4A4A4 } ) ) );
+          scene.add( barreathree );
+          barreathree.position.x= 16 + (-9.8);
+          barreathree.position.y=8.7;
+          barreathree.position.z= -55;
+          var barrekone = new THREE.PointLight( 0xA4A4A4, 1, 1 );
+          barrekone.add( new THREE.Mesh( barreverticaleone, new THREE.MeshPhongMaterial( { color: 0xA4A4A4 } ) ) );
+          scene.add( barrekone );
+          barrekone.position.x= 16 + (-2.8);
+          barrekone.position.y=10.4;
+          barrekone.position.z= -55;
+          var barrektwo = new THREE.PointLight( 0xA4A4A4, 1, 1 );
+          barrektwo.add( new THREE.Mesh( barrehorizontalefour, new THREE.MeshPhongMaterial( { color: 0xA4A4A4 } ) ) );
+          scene.add( barrektwo );
+          barrektwo.position.x= 16 + (1);
+          barrektwo.position.y=12.4;
+          barrektwo.position.z= -55;
+          barrektwo.rotation.z=0.66;
+          var barrekthree = new THREE.PointLight( 0xA4A4A4, 1, 1 );
+          barrekthree.add( new THREE.Mesh( barrehorizontalefive, new THREE.MeshPhongMaterial( { color: 0xA4A4A4 } ) ) );
+          scene.add( barrekthree );
+          barrekthree.position.x= 16 + (1.8);
+          barrekthree.position.y=7.6;
+          barrekthree.position.z= -55;
+          barrekthree.rotation.z= -0.7;
+          var barretexte = new THREE.PointLight( 0xA4A4A4, 1, 1 );
+          barretexte.add( new THREE.Mesh( barrehorizontalesix, new THREE.MeshPhongMaterial( { color: 0xA4A4A4 } ) ) );
+          scene.add( barretexte );
+          barretexte.position.x= 121 + (1.8);
+          barretexte.position.y= 17.6;
+          barretexte.position.z= -55;
+          var barretextetwo = new THREE.PointLight( 0xA4A4A4, 1, 1 );
+          barretextetwo.add( new THREE.Mesh( barrehorizontalesix, new THREE.MeshPhongMaterial( { color: 0xA4A4A4 } ) ) );
+          scene.add( barretextetwo );
+          barretextetwo.position.x= 121 + (1.8);
+          barretextetwo.position.y= 2.6;
+          barretextetwo.position.z= -55;
+            var eteind, eteindtwo, eteindthree, eteindfive, eteindsix, allume, allmuetwo, allumethree, allumefour, allumefive;
+            var id;
+            setInterval(glitchlight, 10000); 
+            function glitchlight() {
+                eteind = setTimeout(function(){ stopone() }, 3000);
+                function stopone() {
+                    barreeone.intensity = 0;
+                    barreetwo.intensity = 0;
+                    barreethree.intensity = 0;
+                    barreefour.intensity = 0;
+                    barreeonemesh.material.color.setHex( 0x000000 );
+                    barreetwomesh.material.color.setHex( 0x000000 );
+                    barreethreemesh.material.color.setHex( 0x000000 );
+                    barreefourmesh.material.color.setHex( 0x000000 );
+                }
+                allume = setTimeout(function(){ goone() }, 3050);
+                function goone() {
+                    barreeone.intensity = 2;
+                    barreetwo.intensity = 2;
+                    barreethree.intensity = 2;
+                    barreefour.intensity = 2;
+                    barreeonemesh.material.color.setHex( 0xffffff );
+                    barreetwomesh.material.color.setHex( 0xffffff );
+                    barreethreemesh.material.color.setHex( 0xffffff );
+                    barreefourmesh.material.color.setHex( 0xffffff );
+                }
+                eteindtwo = setTimeout(function(){ stoptwo() }, 3100);
+                function stoptwo() {
+                    barreeone.intensity = 0;
+                    barreetwo.intensity = 0;
+                    barreethree.intensity = 0;
+                    barreefour.intensity = 0;
+                    barreeonemesh.material.color.setHex( 0x000000 );
+                    barreetwomesh.material.color.setHex( 0x000000 );
+                    barreethreemesh.material.color.setHex( 0x000000 );
+                    barreefourmesh.material.color.setHex( 0x000000 );
+                }
+                allumetwo = setTimeout(function(){ gotwo() }, 5000);
+                function gotwo() {
+                    barreeone.intensity = 2;
+                    barreetwo.intensity = 2;
+                    barreethree.intensity = 2;
+                    barreefour.intensity = 2;
+                    barreeonemesh.material.color.setHex( 0xffffff );
+                    barreetwomesh.material.color.setHex( 0xffffff );
+                    barreethreemesh.material.color.setHex( 0xffffff );
+                    barreefourmesh.material.color.setHex( 0xffffff );
+                }
+                eteindthree = setTimeout(function(){ stopthree() }, 5100);
+                function stopthree() {
+                    barreeone.intensity = 0;
+                    barreetwo.intensity = 0;
+                    barreethree.intensity = 0;
+                    barreefour.intensity = 0;
+                    barreeonemesh.material.color.setHex( 0x000000 );
+                    barreetwomesh.material.color.setHex( 0x000000 );
+                    barreethreemesh.material.color.setHex( 0x000000 );
+                    barreefourmesh.material.color.setHex( 0x000000 );
+                }
+                allumethree = setTimeout(function(){ gothree() }, 5150);
+                function gothree() {
+                    barreeone.intensity = 2;
+                    barreetwo.intensity = 2;
+                    barreethree.intensity = 2;
+                    barreefour.intensity = 2;
+                    barreeonemesh.material.color.setHex( 0xffffff );
+                    barreetwomesh.material.color.setHex( 0xffffff );
+                    barreethreemesh.material.color.setHex( 0xffffff );
+                    barreefourmesh.material.color.setHex( 0xffffff );
+                }
+                eteindthree = setTimeout(function(){ stopthree() }, 5200);
+                function stopthree() {
+                    barreeone.intensity = 0;
+                    barreetwo.intensity = 0;
+                    barreethree.intensity = 0;
+                    barreefour.intensity = 0;
+                    barreeonemesh.material.color.setHex( 0x000000 );
+                    barreetwomesh.material.color.setHex( 0x000000 );
+                    barreethreemesh.material.color.setHex( 0x000000 );
+                    barreefourmesh.material.color.setHex( 0x000000 );
+                }
+                allumethree = setTimeout(function(){ gothree() }, 5250);
+                function gothree() {
+                    barreeone.intensity = 2;
+                    barreetwo.intensity = 2;
+                    barreethree.intensity = 2;
+                    barreefour.intensity = 2;
+                    barreeonemesh.material.color.setHex( 0xffffff );
+                    barreetwomesh.material.color.setHex( 0xffffff );
+                    barreethreemesh.material.color.setHex( 0xffffff );
+                    barreefourmesh.material.color.setHex( 0xffffff );
+                }
+                eteindthree = setTimeout(function(){ stopthree() }, 5300);
+                function stopthree() {
+                    barreeone.intensity = 0;
+                    barreetwo.intensity = 0;
+                    barreethree.intensity = 0;
+                    barreefour.intensity = 0;
+                    barreeonemesh.material.color.setHex( 0x000000 );
+                    barreetwomesh.material.color.setHex( 0x000000 );
+                    barreethreemesh.material.color.setHex( 0x000000 );
+                    barreefourmesh.material.color.setHex( 0x000000 );
+                }
+                allumethree = setTimeout(function(){ gothree() }, 5350);
+                function gothree() {
+                    barreeone.intensity = 2;
+                    barreetwo.intensity = 2;
+                    barreethree.intensity = 2;
+                    barreefour.intensity = 2;
+                    barreeonemesh.material.color.setHex( 0xffffff );
+                    barreetwomesh.material.color.setHex( 0xffffff );
+                    barreethreemesh.material.color.setHex( 0xffffff );
+                    barreefourmesh.material.color.setHex( 0xffffff );
+                }
+                eteindthree = setTimeout(function(){ stopthree() }, 5400);
+                function stopthree() {
+                    barreeone.intensity = 0;
+                    barreetwo.intensity = 0;
+                    barreethree.intensity = 0;
+                    barreefour.intensity = 0;
+                    barreeonemesh.material.color.setHex( 0x000000 );
+                    barreetwomesh.material.color.setHex( 0x000000 );
+                    barreethreemesh.material.color.setHex( 0x000000 );
+                    barreefourmesh.material.color.setHex( 0x000000 );
+                }
+                allumethree = setTimeout(function(){ gothree() }, 5750);
+                function gothree() {
+                    barreeone.intensity = 2;
+                    barreetwo.intensity = 2;
+                    barreethree.intensity = 2;
+                    barreefour.intensity = 2;
+                    barreeonemesh.material.color.setHex( 0xffffff );
+                    barreetwomesh.material.color.setHex( 0xffffff );
+                    barreethreemesh.material.color.setHex( 0xffffff );
+                    barreefourmesh.material.color.setHex( 0xffffff );
+                }
+                 eteindthree = setTimeout(function(){ stopthree() }, 5800);
+                function stopthree() {
+                    barreeone.intensity = 0;
+                    barreetwo.intensity = 0;
+                    barreethree.intensity = 0;
+                    barreefour.intensity = 0;
+                    barreeonemesh.material.color.setHex( 0x000000 );
+                    barreetwomesh.material.color.setHex( 0x000000 );
+                    barreethreemesh.material.color.setHex( 0x000000 );
+                    barreefourmesh.material.color.setHex( 0x000000 );
+                }
+            }
+            glitchlight();
+          var cubeGeometryone = new THREE.BoxGeometry(20,1,20);
+          var cubeMaterialone = new THREE.MeshPhongMaterial( { ambient: 0x333333, color: 0x363636, specular: 0x000000, shininess: 50 } );
+          var cubeone = new THREE.Mesh(cubeGeometryone, cubeMaterialone);
+          cubeone.position.x=0;
+          cubeone.position.y=-2;
+          cubeone.position.z=0;
+          scene.add(cubeone);
+          var cubeGeometrytwo = new THREE.BoxGeometry(20,1,20);
+          var cubeMaterialtwo = new THREE.MeshPhongMaterial( { ambient: 0x333333, color: 0x2C2C2C, specular: 0x000000, shininess: 50 } );
+          var cubetwo = new THREE.Mesh(cubeGeometrytwo, cubeMaterialtwo);
+          cubetwo.position.x=30;
+          cubetwo.position.y=-2;
+          cubetwo.position.z=0;
+          scene.add(cubetwo);
+          var cubeGeometrythree = new THREE.BoxGeometry(20,1,20);
+          var cubeMaterialthree = new THREE.MeshPhongMaterial( { ambient: 0x333333, color: 0x212121, specular: 0x000000, shininess: 50 } );
+          var cubethree = new THREE.Mesh(cubeGeometrythree, cubeMaterialthree);
+          cubethree.position.x=60;
+          cubethree.position.y=-2;
+          cubethree.position.z=0;
+          scene.add(cubethree);
+          var cubeGeometryfour = new THREE.BoxGeometry(20,1,20);
+          var cubeMaterialfour = new THREE.MeshPhongMaterial( { ambient: 0x333333, color: 0x1A1A1A, specular: 0x000000, shininess: 50 } );
+          var cubefour = new THREE.Mesh(cubeGeometryfour, cubeMaterialfour);
+          cubefour.position.x=90;
+          cubefour.position.y=-2;
+          cubefour.position.z=0;
+          scene.add(cubefour);
+          var cubeGeometryfive = new THREE.BoxGeometry(20,1,20);
+          var cubeMaterialfive = new THREE.MeshPhongMaterial( { ambient: 0x333333, color: 0x161616, specular: 0x000000, shininess: 50 } );
+          var cubefive = new THREE.Mesh(cubeGeometryfive, cubeMaterialfive);
+          cubefive.position.x=120;
+          cubefive.position.y=-2;
+          cubefive.position.z=0;
+          scene.add(cubefive);
+          var cubeGeometrysix = new THREE.BoxGeometry(20,1,20);
+          var cubeMaterialsix = new THREE.MeshPhongMaterial( { ambient: 0x333333, color: 0x0E0E0E, specular: 0x000000, shininess: 50 } );
+          var cubesix = new THREE.Mesh(cubeGeometrysix, cubeMaterialsix);
+          cubesix.position.x=150;
+          cubesix.position.y=-2;
+          cubesix.position.z=0;
+          scene.add(cubesix);
+          var cubeGeometryseven = new THREE.BoxGeometry(20,1,20);
+          var cubeMaterialseven = new THREE.MeshPhongMaterial( { ambient: 0x333333, color: 0x3C3C3C, specular: 0x000000, shininess: 50 } );
+          var cubeseven = new THREE.Mesh(cubeGeometryseven, cubeMaterialseven);
+          cubeseven.position.x=-30;
+          cubeseven.position.y=-2;
+          cubeseven.position.z=0;
+          scene.add(cubeseven);
+          camera.position.x = -48;
+          camera.position.y = 20;
+          camera.position.z = 35;
+          camera.lookAt(scene.position);
+          var ambientLight = new THREE.AmbientLight(0x0c0c0c);
+          scene.add(ambientLight);
+          document.getElementById("WebGL-output").appendChild(renderer.domElement);
+          var vitesse = 0;
+          var vitesseone=0;
+          var vitessetwo=0;
+          var vitessethree=0;
+          var vitessefour=0;
+          var vitessefive=0;
+          var vitessesix=0;
+          var vitesseseven=0;
+          renderScene();
+          function renderScene() {
+            vitesse+=0.005;
+            vitesseone+=0.01;
+            vitessetwo+=0.0105;
+            vitessethree+=0.011;
+            vitessefour+=0.0115;
+            vitessefive+=0.012;
+            vitessesix+=0.0125;
+            vitesseseven+=0.013;
+            setTimeout(function(){ 
+              vitessetwo-=0.0005;
+              vitessethree-=0.001;
+              vitessefour-=0.0015;
+              vitessefive-=0.002;
+              vitessesix-=0.0025;
+              vitesseseven-=0.003;
+            }, 10000);
+            cubeseven.position.y = -4 +( 8 * Math.abs(Math.sin(vitesseone)));
+            cubeone.position.y = -4 +( 8 * Math.abs(Math.sin(vitessetwo)));
+            cubetwo.position.y = -4 +( 8 * Math.abs(Math.sin(vitessethree)));
+            cubethree.position.y = -4 +( 8 * Math.abs(Math.sin(vitessefour)));
+            cubefour.position.y = -4 +( 8 * Math.abs(Math.sin(vitessefive)));
+            cubefive.position.y = -4 +( 8 * Math.abs(Math.sin(vitessesix)));
+            cubesix.position.y = -4 +( 8 * Math.abs(Math.sin(vitesseseven)));
+              requestAnimationFrame(renderScene);
+              renderer.render(scene, camera);
+          }
+              var wireframeone = new THREE.WireframeHelper( cubeone, 0xffffff );
+              scene.add(wireframeone);
+              var wireframetwo = new THREE.WireframeHelper( cubetwo, 0xffffff );
+              scene.add(wireframetwo);
+              var wireframethree = new THREE.WireframeHelper( cubethree, 0xffffff );
+              scene.add(wireframethree);
+              var wireframefour = new THREE.WireframeHelper( cubefour, 0xffffff );
+              scene.add(wireframefour);
+              var wireframefive = new THREE.WireframeHelper( cubefive, 0xffffff );
+              scene.add(wireframefive);
+              var wireframesix = new THREE.WireframeHelper( cubesix, 0xffffff );
+              scene.add(wireframesix);
+              var wireframeseven = new THREE.WireframeHelper( cubeseven, 0xffffff );
+              scene.add(wireframeseven);
+        };
+    window.onload = init;
+    </script>
+  </body>
+</html>

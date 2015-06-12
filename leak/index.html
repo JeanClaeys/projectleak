@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LEAK | CLAEYS JEAN</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/png" href="img/favicon.png" />
+        <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" /><![endif]-->
+        <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700,800' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <script src="build/three.js"></script>
+        <script src="js/PointerLockControls.js"></script>
+        <img class="esc" src="img/esc.png" alt="bouton echap">
+        <div id="blocker">
+            <div id="instructions">
+              <div class="left">
+                <div class="texteone">
+                  <p>Aprés quelques secondes d’assoupissement vous chutez dans l’espace et le temps. Une sorte de plaque en suspension dont vous ignorer la matière vous arrête momentanément dans votre chute. En face de vous, d’autres plateformes -puis le noir total.</p>
+                </div>
+                <div class="niveau">
+                  <div class="etape">
+                    <h1>Etape 1</h1>
+                    <h2>Eveil Calme</h2>
+                  </div>
+                  <div class="etape etapetwo opacity">
+                    <h1>Etape 2</h1>
+                    <h2>Sommeil profond</h2>
+                  </div>
+                  <div class="etape etapethree opacity">
+                    <h1>Etape 3</h1>
+                    <h2>Sommeil paradoxal</h2>
+                  </div>
+                  <div id="levelone" class="acces pointer">
+                    <div class="go">
+                      <p>GO</p>
+                    </div>
+                  </div>
+                  <div class="acces opacity">
+                    <div class="go">
+                      <img src="img/cadenas.png" alt="cadenas">
+                    </div>
+                  </div>
+                  <div class="acces opactiy">
+                    <div class="go opacity">
+                      <img src="img/cadenas.png" alt="cadenas">
+                    </div>
+                  </div>
+                  <div class="resultat">
+                    <ul class="stats">
+                      <li>Chute</li>
+                      <li>Mort</li>
+                      <li>Reveil</li>
+                    </ul>
+                    <ul class="chiffres">
+                      <li id="chute">0</li>
+                      <li id="mort">0</li>
+                      <li id="reveil">0</li>
+                    </ul>
+                  </div>
+                  <div class="resultat etapetwo opacity">
+                    <ul class="stats">
+                      <li>Chute</li>
+                      <li>Mort</li>
+                      <li>Reveil</li>
+                    </ul>
+                    <ul class="chiffres opacity">
+                      <li>0</li>
+                      <li>0</li>
+                      <li>0</li>
+                    </ul>
+                  </div>
+                  <div class="resultat opacity">
+                    <ul class="stats">
+                      <li>Chute</li>
+                      <li>Mort</li>
+                      <li>Reveil</li>
+                    </ul>
+                    <ul class="chiffres opacity">
+                      <li>0</li>
+                      <li>0</li>
+                      <li>0</li>
+                    </ul>
+                  </div>
+                </div>
+                <ul class="touches">
+                  <li> z, q, s, d</li>
+                  <li>Touche espace</li>
+                  <li>Trackpad / Souris</li>
+                </ul>
+                <ul class="explications">
+                  <li>Ce déplacer dans la scéne</li>
+                  <li>Sauter</li>
+                  <li>Regardez autour de vous</li>
+                </ul>
+              </div>
+              <div class="right">
+                <div class="conseil">
+                  <h3>Conseils : </h3>
+                  <ul>
+                    <li class="lione">Dépêchez vous avant qu'il ne vous rattrape !</li>
+                    <li class="litwo">Lorsqu'il fait trop sombre, mieux vaut attendre la lumière.</li>
+                    <li class="lithree">Les plate-formes sombres vous feront perdre la vue.</li>
+                    <li class="lifour">Les plate-formes claires vous permettront de voir plus loin.</li>
+                    <li class="lifive">Chaques étapes est divisées en sous niveaux, quand vous tombez de ce niveau vous reapparaissez au début.</li>
+                    <li class="lisix">Si il vous attrape vous devrez tout recommencer.</li>
+                    <li class="liseven"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+        <script src="js/intro.js"></script>
+    </body>
+</html>
